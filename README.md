@@ -6,6 +6,8 @@ In this project, I backtested several models which essentially are to predict st
 * "DJIA_long_only" folder is the detailed result for DJIA by assuming that short selling is not allowed.
 * "DJIA_long_short" folder is the detailed result for DJIA by assuming that short selling is allowed.
 * "SP500_long_short" folder is the detailed result for SP500 by assuming that short selling is allowed.
+* "SP500_improvement_v1" folder is the improvement on SP500.
+* "raw_data" folder contains all raw datasets used. 
 
 ## Description for each folder
 * For "DJIA_long_only" and "DJIA_long_short", I provide the detailed portfolio information for the best AUC in Kaggle with the filling method "fill at t+0 close" and also the portfolio information for the highest Sharpe ratio. Besides, I provide the Jupyter notebook and also the performance summary table for both filling methods.
